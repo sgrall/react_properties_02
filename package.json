@@ -1,0 +1,38 @@
+{
+  "name": "react_properties_02",
+  "version": "1.0.0",
+  "description": "Sample to introduce a basic React concept, handling properties",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-devserver --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgrall/react_properties_02.git"
+  },
+  "author": "sgrall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgrall/react_properties_02/issues"
+  },
+  "homepage": "https://github.com/sgrall/react_properties_02#readme",
+  "devDependencies": {
+    "@types/react": "^0.14.49",
+    "@types/react-dom": "^0.14.18",
+    "css-loader": "^0.26.0",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.24.1",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^1.2.2",
+    "typescript": "^2.0.10",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.3",
+    "webpack-devserver": "0.0.6"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0"
+  }
+}
